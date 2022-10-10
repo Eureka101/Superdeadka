@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link th:href="@{/css/main.css}" rel="stylesheet" />
+    <title>Выберите дату</title>
+</head>
+<body>
+<img class="img" th:src="@{/images/1.jpg}" />
+<h1>Выберите дату въезда в Республику Казахстан</h1>
+<form>
+  <input type="date" name="adate">
+  <button class="button" type="submit" formaction="/set_date" formmethod="post" >Выбрать</button>
+</form>
+</body>
+</html>

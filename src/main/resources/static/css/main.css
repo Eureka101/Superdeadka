@@ -1,0 +1,32 @@
+body {
+    background: white;
+    color: darkblue;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    border: darkblue;
+}
+
+h1 {
+    position: relative;
+    margin-left: 400px;
+    z-index: 200;
+}
+
+form {
+    position: relative;
+    margin-left: 650px;
+    margin-top: 100px;
+    z-index: 300;
+}
+
+.img {
+    position: absolute;
+    z-index: 100;
+    margin-left: 350px;
+    margin-top: 170px;
+    width: 800px;
+    height: 500px;
+}
